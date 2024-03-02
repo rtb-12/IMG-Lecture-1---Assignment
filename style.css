@@ -371,6 +371,9 @@ margin-bottom: 10px;
   display: none;
 }
 
+.bottombarmobile{
+  display: none;
+}
 
 
 @media (max-width: 600px) {
@@ -436,5 +439,40 @@ margin-bottom: 10px;
   display: block;
 }
 
+.bottombar{
+  margin-left: 25px;
+}
+.map{
+  height: 98px !important;
+  width: 154px !important;
+}
+.options{
+  gap: 6px;
+}
 
+.whitebox{
+  height:180px;
+}
+.bottombar{
+  display: none;
+}
+.bottombarmobile { 
+  display:flex;
+  margin-left:25px;
+  margin-right:25px;
+  justify-content: space-between;
+  font-family: "Noto Sans", sans-serif;
+  gap:5px
+}
+.rectangle{
+  width: 154px;
+    height: 98px;
+}
+.policy1, .policy2{
+  padding-left: 25px;
+  padding-right: 25px ;
+}
+.leftpolicy1{
+  gap:0px;
+}
 }
