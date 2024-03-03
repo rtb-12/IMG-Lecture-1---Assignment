@@ -460,19 +460,30 @@ margin-bottom: 10px;
   display:flex;
   margin-left:25px;
   margin-right:25px;
+  margin-bottom: 25px;
   justify-content: space-between;
   font-family: "Noto Sans", sans-serif;
-  gap:5px
+  gap:25px
 }
 .rectangle{
   width: 154px;
-    height: 98px;
+  height: 98px;
 }
 .policy1, .policy2{
   padding-left: 25px;
   padding-right: 25px ;
 }
 .leftpolicy1{
-  gap:0px;
+  gap:1px;
 }
+.position{
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.bgmobile img:hover{
+  filter: grayscale(0%);
+}
+
 }
